@@ -69,3 +69,6 @@ payment = client.post_payement(payment_data)
 status = client.get_payment_status("8LmjDNjisi0A5EAAGBYM")
 
 ```
+const TtkEpay = require('ttk-epay-nodejs-client');
+const client = new TtkEpay();
+
